@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "testeadora"
+  profiles:
+    active: "probador"
+
+prueba: "probadora"
