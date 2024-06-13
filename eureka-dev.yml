@@ -1,0 +1,11 @@
+# Depends on discovery.yml for placeholders
+
+server:
+  port: ${eureka-port}
+
+eureka:
+  instance:
+    hostname: ${eureka-host}
+  client:
+    registerWithEureka: false
+    fetchRegistry: false

@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: jackal.rmq.cloudamqp.com
+    virtual-host: pnwffigx
+    username: pnwffigx
+    port: 5672
+    password: T2u4utiO8XW_9oM9k7Wp59g1BCb185ZC # xd
