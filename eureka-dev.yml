@@ -7,11 +7,14 @@ eureka:
   instance:
     hostname: ${eureka-host}
     metadata-map:
-      region: santa-fe # 😎
+      region: ${eureka-region1}
   client:
     registerWithEureka: false
     fetchRegistry: false
-    region: santa-fe-1 # ?????
+    region: ${eureka-region1}
+    serviceUrl:
+      defaultZone: ${eureka-defaultZone}
+
 management:
   endpoints:
     web:

@@ -1,7 +1,9 @@
 eureka-port: 12112
 eureka-host: localhost
+eureka-defaultZone: https://${eureka-host}:${eureka-port}/eureka/
+eureka-region1: santa-fe-1 # 😎
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://${eureka-host}:${eureka-port}/eureka/
+      defaultZone: ${eureka-defaultZone}
