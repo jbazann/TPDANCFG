@@ -6,6 +6,15 @@ server:
 eureka:
   instance:
     hostname: ${eureka-host}
+    metadata-map:
+      region: santa-fe # 😎
   client:
     registerWithEureka: false
     fetchRegistry: false
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: httpexchanges
