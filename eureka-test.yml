@@ -1,4 +1,4 @@
-# Depends on discovery-dev.yml for placeholders
+# Depends on discovery-test.yml for placeholders
 
 server:
   port: ${eureka-port}
