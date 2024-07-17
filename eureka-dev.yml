@@ -2,10 +2,11 @@
 
 server:
   port: ${eureka-port}
+  address: ${eureka-host}
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: ${eureka-host}
     metadata-map:
       region: ${eureka-region1}
   client:
