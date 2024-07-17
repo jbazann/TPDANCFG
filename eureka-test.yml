@@ -1,19 +1,19 @@
 # Depends on discovery-test.yml for placeholders
 
 server:
-  port: ${eureka-port}
+  port: ${jbazann.eureka-port}
 
 eureka:
   instance:
-    hostname: ${eureka-host}
+    hostname: ${jbazann.eureka-host}
     metadata-map:
-      region: ${eureka-region1}
+      region: ${jbazann.eureka-region1}
   client:
     registerWithEureka: false
     fetchRegistry: false
-    region: ${eureka-region1}
+    region: ${jbazann.eureka-region1}
     serviceUrl:
-      defaultZone: ${eureka-defaultZone}
+      defaultZone: ${jbazann.eureka-defaultZone}
 
 management:
   endpoints:
