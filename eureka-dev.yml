@@ -5,7 +5,7 @@ server:
 
 eureka:
   instance:
-    hostname: ${eureka-host}
+    hostname: localhost
     metadata-map:
       region: ${eureka-region1}
   client:
