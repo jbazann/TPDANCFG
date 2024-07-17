@@ -2,7 +2,6 @@
 
 server:
   port: ${eureka-port}
-  address: ${eureka-host}
 
 eureka:
   instance:
@@ -17,6 +16,8 @@ eureka:
       defaultZone: ${eureka-defaultZone}
 
 management:
+  server:
+    port: ${eureka-port}
   endpoints:
     web:
       exposure:
