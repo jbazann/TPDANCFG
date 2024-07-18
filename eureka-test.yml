@@ -16,7 +16,9 @@ eureka:
       defaultZone: ${jbazann.eureka-defaultZone}
 
 management:
+  server:
+    port: 12112
   endpoints:
     web:
       exposure:
-        include: httpexchanges
+        include: httpexchanges,health
