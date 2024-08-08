@@ -1,7 +1,7 @@
 jbazann:
   eureka-port: 12012
   eureka-host: eureka
-  eureka-defaultZone: https://${jbazann.eureka-host}:${jbazann.eureka-port}/eureka/
+  eureka-defaultZone: http://${jbazann.eureka-host}:${jbazann.eureka-port}/eureka/
   eureka-region1: santa-fe-1 # 😎
 
 eureka:
